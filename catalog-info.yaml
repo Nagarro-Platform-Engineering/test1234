@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test1234"
+  annotations:
+    "humanitec.com/orgId": "nagarro-platform-engineering"
+    "humanitec.com/appId": "test1234"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
